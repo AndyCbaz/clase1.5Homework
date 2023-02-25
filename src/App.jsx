@@ -17,7 +17,7 @@ const nextFunc = () => {
 
 
   return (
-    <div className="App">
+    <div className="App flex flex-col justify-center items-center">
 
       <h1 className='text-5xl text-white font-bold'>Javascript y sus amigos</h1>
       <Card
