@@ -10,9 +10,8 @@ function App() {
 
 const [count, setCount] = useState(0); 
 const nextFunc = () => {
-  let newValue = count + 1;
-  if(newValue > 5){newValue = 0;}
-  setCount(newValue);
+  let random = Math.floor(Math.random() * (6));
+  setCount(random);
 };
 
 
