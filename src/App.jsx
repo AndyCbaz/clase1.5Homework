@@ -10,8 +10,8 @@ function App() {
 
 const [count, setCount] = useState(0); 
 const nextFunc = () => {
-  const newValue = count + 1;
-  if(newValue > 5){count = 0; newValue = count;}
+  let newValue = count + 1;
+  if(newValue > 5){newValue = 0;}
   setCount(newValue);
 };
 
