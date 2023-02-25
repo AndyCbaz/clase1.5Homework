@@ -11,12 +11,10 @@ function App() {
 const [count, setCount] = useState(0); 
 const nextFunc = () => {
   const newValue = count + 1;
-  if(newValue > 5){count = 0}
+  if(newValue > 5){count = 0; newValue = count;}
   setCount(newValue);
 };
 
-
-// let i = 1;
 
   return (
     <div className="App">
